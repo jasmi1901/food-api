@@ -1,4 +1,4 @@
-# Food Menu API (Breakfast, Lunch & Dinner) 🍽️
+# 🍽️ Food Menu API (Breakfast, Lunch & Dinner) 
 
 This project is a simple REST Web API built using Node.js, Express, and MongoDB.
 It allows users to store and retrieve food menu items separated into Breakfast, Lunch, and Dinner categories.
@@ -31,11 +31,11 @@ Supports multiple HTTP methods:
 ```bash
 
   # 1️⃣ Clone or Download the Project
-      git clone <https://github.com/jasmi1901/food-api.git>
-      cd food-api
+       git clone https://github.com/jasmi1901/food-api.git
+       cd food-api
   
   # 2️⃣ Install Dependencies
-      npm install
+       npm install
   
   # 3️⃣ Configure Environment Variables
        Create a file called .env in the root folder:
@@ -45,8 +45,8 @@ Supports multiple HTTP methods:
   # 4️⃣ Start MongoDB
        mongod
   
-  # 5️⃣ Start the API Server
-       node server.js
+  # 5️⃣ Start the API app
+       node app.js
 ```
 
 #  🚀 API Endpoints
@@ -62,18 +62,18 @@ Supports multiple HTTP methods:
 ```bash  
 
 # ✅ GET All Foods
-     GET /api/foods
+     GET http://localhost:3000/api/foods
 
 # ✅ GET Foods by Menu Category
-     GET /api/foods/menu/breakfast
-     GET /api/foods/menu/lunch
-     GET /api/foods/menu/dinner
+     GET http://localhost:3000/api/foods/meal/breakfast
+     GET http://localhost:3000/api/foods/meal/lunch
+     GET http://localhost:3000/api/foods/meal/dinner
 
 # ✅ GET Food by ID
-     GET /api/foods/:id
+     GET http://localhost:3000/api/foods/:id
 
 # ✅ POST Create New Food Item 
-     POST /api/foods
+     POST http://localhost:3000/api/foods
      Content-Type: application/json
 
      Example Body:
@@ -84,11 +84,11 @@ Supports multiple HTTP methods:
       }
 
 # ✅ PUT Update Food Item   
-     PUT /api/foods/:id
+     PUT http://localhost:3000/api/foods/:id
 
 
 # ✅ DELETE Food Item
-     DELETE /api/foods/:id
+     DELETE http://localhost:3000/api/foods/:id
 
 ```
 

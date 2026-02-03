@@ -85,10 +85,10 @@ Content-Type: application/json
 GET http://localhost:3000/api/foods
 
 ###
-GET http://localhost:3000/api/foods/meal/dinner
+GET http://localhost:3000/api/foods/meal/breakfast
 
 ###
-PUT http://localhost:3000/api/foods/697b53736d4d61037c044d9c
+PUT http://localhost:3000/api/foods/1234
 Content-Type: application/json
 
 {
@@ -99,4 +99,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/api/foods/6979f725c3b532870113f301
+DELETE http://localhost:3000/api/foods/5678

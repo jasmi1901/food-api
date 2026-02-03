@@ -5,40 +5,46 @@ It allows users to store and retrieve food menu items separated into Breakfast, 
 
 The API communicates over HTTP, supports multiple HTTP methods, stores data in a database, and responds with standard RFC 2616 status codes.
 
-##Features
+## Features
 
 RESTful API using Express.js
+
 MongoDB database integration using Mongoose
+
 Separate menus for:
+
         Breakfast
         Lunch
         Dinner
+
 Supports multiple HTTP methods:
+
         GET
         POST
         PUT
         DELETE
-Uses RFC 2616 compliant HTTP status codes:
-        200 OK
-        201 Created
-        400 Bad Request
-        404 Not Found
-        500InternalServerError   
+
+
 
 # ⚙️ Setup Instructions (Run Locally) 
 
 ```bash
+
   # 1️⃣ Clone or Download the Project
-      git clone <your-repository-url>
+      git clone <https://github.com/jasmi1901/food-api.git>
       cd food-api
+  
   # 2️⃣ Install Dependencies
       npm install
+  
   # 3️⃣ Configure Environment Variables
        Create a file called .env in the root folder:
        PORT=3000
        MONGO_URI=mongodb://localhost:27017/fooddb
+  
   # 4️⃣ Start MongoDB
        mongod
+  
   # 5️⃣ Start the API Server
        node server.js
 ```
@@ -46,6 +52,7 @@ Uses RFC 2616 compliant HTTP status codes:
 #  🚀 API Endpoints
    
    ```bash
+
       http://localhost:3000/api/foods
    
    ```
@@ -76,24 +83,31 @@ Uses RFC 2616 compliant HTTP status codes:
        "price": 5.99,
        "category": "breakfast"
      }
+
 # ✅ PUT Update Food Item   
     PUT /api/foods/:id
+
 
 # ✅ DELETE Food Item
     DELETE /api/foods/:id
 ```
 
 # Status Codes Used 
- Status Code	
-200 OK	
-201 Created	
-400 Bad Request	
-404 Not Found	
-500 Internal 
+
+Status Code	
+
+200     OK	
+201     Created	
+400     Bad Request	
+404     Not Found	
+500     Internal 
 
 # 🧪 Testing the API
  
  Thunder Client (VS Code Extension)
+ Postman
 
+
+ 
 
      

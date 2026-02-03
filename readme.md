@@ -104,8 +104,8 @@ Supports multiple HTTP methods:
 
 # 🧪 Testing the API
  
- Thunder Client (VS Code Extension)
- Postman
+     Thunder Client (VS Code Extension)
+     Postman
 
 
  

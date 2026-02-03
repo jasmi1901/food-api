@@ -62,34 +62,34 @@ Supports multiple HTTP methods:
 ```bash  
 
 # ✅ GET All Foods
-   GET /api/foods
+     GET /api/foods
 
 # ✅ GET Foods by Menu Category
-    GET /api/foods/menu/breakfast
-    GET /api/foods/menu/lunch
-    GET /api/foods/menu/dinner
+     GET /api/foods/menu/breakfast
+     GET /api/foods/menu/lunch
+     GET /api/foods/menu/dinner
 
 # ✅ GET Food by ID
-    GET /api/foods/:id
+     GET /api/foods/:id
 
-#✅ POST Create New Food Item 
-    POST /api/foods
-    Content-Type: application/json
+# ✅ POST Create New Food Item 
+     POST /api/foods
+     Content-Type: application/json
 
-    Example Body:
-     {
-       "name": "Pancakes",
-       "cuisine": "American",
-       "price": 5.99,
-       "category": "breakfast"
-     }
+     Example Body:
+      {
+        "name": "Pancakes",
+        "price": 5.99,
+        "category": "breakfast"
+      }
 
 # ✅ PUT Update Food Item   
-    PUT /api/foods/:id
+     PUT /api/foods/:id
 
 
 # ✅ DELETE Food Item
-    DELETE /api/foods/:id
+     DELETE /api/foods/:id
+
 ```
 
 # Status Codes Used 

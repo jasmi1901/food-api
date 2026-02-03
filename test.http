@@ -1,0 +1,102 @@
+POST http://localhost:3000/api/foods
+Content-Type: application/json
+
+{
+  "name": "Pancakes",
+  "price": 5.99,
+  "category": "breakfast"
+}
+
+###
+POST http://localhost:3000/api/foods
+Content-Type: application/json
+
+{
+  "name": "Omelette",
+  "price": 6.50,
+  "category": "breakfast"
+}
+
+###
+POST http://localhost:3000/api/foods
+Content-Type: application/json
+
+{
+  "name": "French Toast",
+  "price":  5.99,
+  "category": "breakfast"
+}
+
+###
+POST http://localhost:3000/api/foods
+Content-Type: application/json
+
+{
+  "name": "Caesar Salad",
+  "price": 8.99,
+  "category": "lunch"
+}
+
+###
+POST http://localhost:3000/api/foods
+Content-Type: application/json
+
+{
+  "name": "Grilled Chicken Sandwich",
+  "price": 9.99,
+  "category": "lunch"
+}
+
+###
+POST http://localhost:3000/api/foods
+Content-Type: application/json
+
+{
+  "name": "rice",
+  "price": 6.99,
+  "category": "lunch"
+}
+###
+POST http://localhost:3000/api/foods
+Content-Type: application/json
+{}
+
+###
+POST http://localhost:3000/api/foods
+Content-Type: application/json
+
+{
+  "name": "Spaghetti Bolognese",
+  "price": 12.99,
+  "category": "dinner"
+}
+
+###
+POST http://localhost:3000/api/foods
+Content-Type: application/json
+
+{
+  "name": "Steak",
+  "price": 19.99,
+  "category": "dinner"
+}
+
+###
+GET http://localhost:3000/api/foods
+
+###
+GET http://localhost:3000/api/foods/meal/dinner
+
+###
+PUT http://localhost:3000/api/foods/697b53736d4d61037c044d9c
+Content-Type: application/json
+
+{
+  "name": "Sushi",
+  "price": 15.99,
+  "category": "dinner"
+  
+}
+
+###
+DELETE http://localhost:3000/api/foods/6979f725c3b532870113f301

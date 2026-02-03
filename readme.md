@@ -100,7 +100,7 @@ Supports multiple HTTP methods:
      201     Created
      400     Bad Request
      404     Not Found	
-     500     Internal 
+     500     Internal Server Error
 
 # 🧪 Testing the API
  

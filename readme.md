@@ -38,9 +38,11 @@ Supports multiple HTTP methods:
        npm install
   
   # 3️⃣ Configure Environment Variables
-       Create a file called .env in the root folder:
+       Create a file called .env in the root folder and add PORT , MONGO_URI information as below :
        PORT=3000
        MONGO_URI=mongodb://localhost:27017/fooddb
+
++         
   
   # 4️⃣ Start MongoDB
        mongod

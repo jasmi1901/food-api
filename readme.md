@@ -37,8 +37,8 @@ Supports multiple HTTP methods:
   # 2️⃣ Install Dependencies
        npm install
   
-  # 3️⃣ Configure Environment Variables
-       Create a file called .env in the root folder and add PORT , MONGO_URI information as below :
+  # 3️⃣ Configure Environment Variables (If needed)
+       Please note if there is no .env file in the cloned repo then kindly create a file called .env in the root folder and add PORT , MONGO_URI information as below , otherwise no action needed.
        PORT=3000
        MONGO_URI=mongodb://localhost:27017/fooddb
  
@@ -107,8 +107,3 @@ Supports multiple HTTP methods:
  
      Thunder Client (VS Code Extension)
      Postman
-
-
- 
-
-     
